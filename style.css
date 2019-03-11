@@ -1,7 +1,183 @@
-body {
-        background-image: url(../bg1.jpg);
+body{
+  background-color: navajowhite;
+	font-family: arial;
 }
-h1 {
-    text-decoration: underline;
-    text-transform: capitalize;
+
+.center{
+	margin: auto;
+}
+
+.header{
+	text-align: center;
+	color: burlywood;
+	border-color: burlywood;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left-color: burlywood;
+    border-right-color: burlywood;
+	border-top-color: burlywood;
+	border-bottom-color: burlywood;
+    width: 300px;
+    margin: auto;
+}
+
+.profil{
+	text-align: center;
+	align-items: center;
+}
+
+.foto{
+	border-radius: 100%;
+	width: 200px; 
+	height: 200px;
+}
+
+.list-group{
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	margin-bottom: 10;
+}
+
+.list-group-item{
+	font-size: 22px;
+	position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: white;
+    border-top-color: rgba(0, 0, 0, 0.125);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.125);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.125);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.125);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.bagan{
+    border-color: burlywood;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-left-color: burlywood;
+    border-right-color: burlywood;
+	border-top-color: burlywood;
+	border-bottom-color: burlywood;
+    width: 750px;
+    margin: auto;
+}
+
+table{
+	font-family: Century Gothic;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+	border-color: burlywood;
+}
+
+.tombol {
+    background-color: burlywood;
+    border: burlywood;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin: auto;
+}
+
+/*contact css*/
+* {box-sizing: border-box;}
+
+.header1{
+	text-align: center;
+	color: burlywood;
+	border-color: burlywood;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    margin-bottom: 2px;
+    padding: 10px;
+    border-left-color: burlywood;
+    border-right-color: burlywood;
+	border-top-color: burlywood;
+	border-bottom-color: burlywood;
+    width: 400px;
+    margin: auto;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid burlywood;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid burlywood;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=date], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid burlywood;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+input[type=submit] {
+  background-color: burlywood;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: burlywood;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: burlywood;
+  padding: 20px;
 }
